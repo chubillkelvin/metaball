@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#canvas {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    align-self: center;
+}
